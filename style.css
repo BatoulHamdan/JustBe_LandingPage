@@ -67,6 +67,10 @@ body {
 
 /* Responsive Adjustments */
 @media (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+    
     .container {
         width: 90%;
         padding: 1.5rem;
