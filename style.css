@@ -4,29 +4,27 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    color: white; /* Set text color to white */
+    color: white; 
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;  /* Ensures full height */
+    min-height: 100vh; 
 }
 
 /* Container */
 .container {
     text-align: center;
-    background: black; /* Keep the container background black */
-    padding: 2rem;  /* Relative padding */
-    border-radius: 1rem;  /* Responsive border */
+    background: black; 
+    padding: 2rem;  
+    border-radius: 1rem;  
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     width: 90%;
-    max-width: 30rem;  /* Adjust width based on screen size */
-    color: white; /* Ensures text inside container is white */
+    max-width: 30rem;  
 }
 
 /* Logo Styling */
 .logo {
     width: 100%;  
-    max-width: 100%;  
     height: 15rem;  
     display: block;
     margin: 0 auto 1.5rem;  
@@ -37,7 +35,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;  /* Adds spacing */
+    gap: 1rem;  
     margin-top: 1.5rem;
 }
 
@@ -46,7 +44,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3rem;  /* Scales with text */
+    width: 3rem;  
     height: 3rem;
     border-radius: 50%;
     font-size: 1.5rem;
@@ -55,10 +53,10 @@ body {
 }
 
 /* Button Colors */
-.instagram { background: #E1306C; }  /* Instagram Pink */
-.facebook { background: #1877F2; }   /* Facebook Blue */
-.tiktok { background: #7c7777; }     /* TikTok Black */
-.whatsapp { background: #25D366; }   /* WhatsApp Green */
+.instagram { background: #E1306C; }  
+.facebook { background: #1877F2; }   
+.tiktok { background: #555555; }     
+.whatsapp { background: #25D366; }   
 
 /* Hover Effect */
 .btn:hover {
@@ -69,15 +67,9 @@ body {
 /* Responsive Adjustments */
 @media (max-width: 600px) {
     .container {
-        width: 90%;
         padding: 1.5rem;
     }
     
-    .logo {
-        width: 100%;
-        max-width: 100%;
-    }
-
     .btn {
         width: 2.5rem;
         height: 2.5rem;
